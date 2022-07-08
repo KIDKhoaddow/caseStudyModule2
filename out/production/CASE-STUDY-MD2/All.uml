@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="384.5455012044224" y="852.8470092903501">model.Receipt.Receipt</node>
+    <node x="394.33539278973745" y="525.1748785179894">model.User.Staff</node>
+    <node x="1321.0955231922192" y="154.01003453156147">service.user.UserServiceIMPL</node>
+    <node x="598.4954717187771" y="793.5100345315615">controller.ReceiptController</node>
+    <node x="887.0456654438415" y="741.4280911674763">model.User.Teacher</node>
+    <node x="-199.6358485048837" y="-85.71531058744927">model.Room.Room</node>
+    <node x="-440.45550831238154" y="933.5156171818769">service.user.IUserService</node>
+    <node x="886.4311178418542" y="322.43758539754356">model.User.Gender</node>
+    <node x="178.79147571878593" y="-220.6358342742766">model.Class.EnglishClass</node>
+    <node x="856.8422759769767" y="538.8919757976231">model.User.Role</node>
+    <node x="922.3704329393721" y="-483.55035347922217">model.Course.CourseType</node>
+    <node x="437.99547171877714" y="348.64313698206956">view.Common.LoginView</node>
+    <node x="589.9954717187771" y="126.14313698206956">model.User.User</node>
+    <node x="297.702792841732" y="1010.7283736094612">service.Class.EnglishClassServiceIMPL</node>
+    <node x="-168.07474528275185" y="-299.0299425427164">model.Room.RoomStatus</node>
+    <node x="606.9954717187771" y="910.3470092903501">controller.MainController</node>
+    <node x="639.5455012044224" y="705.8383976747211">controller.RoomController</node>
+    <node x="-576.0159578127374" y="426.0141081690648">service.Room.RoomServiceIMPL</node>
+    <node x="313.5455012044224" y="1790.954282725283">view.Common.CommonView</node>
+    <node x="-194.3001649512251" y="481.7482844217435">model.User.Student</node>
+    <node x="719.9592221756689" y="1332.0654082167403">service.Class.IEnglishClassService</node>
+    <node x="-38.20783013452163" y="1798.4084758432007">service.Room.IRoomService</node>
+    <node x="219.8523463897376" y="-430.6709743370419">model.Class.Shift</node>
+    <node x="753.5267186178057" y="-978.8851454910937">controller.CourseController</node>
+    <node x="-80.62895358629243" y="873.9882241775513">service.Course.ICourseService</node>
+    <node x="-721.7348296912552" y="-175.6358342742766">controller.EnglishClassController</node>
+    <node x="891.0267186178057" y="-248.88514549109357">model.Course.Course</node>
+    <node x="114.13947613792004" y="682.3383976747211">model.Class.EnglishClassStatus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.Receipt.Receipt" target="model.User.User" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="model.User.Staff" target="model.User.User" relationship="GENERALIZATION">
+      <point x="-3.92789737475141E-4" y="14.500121482010528" />
+      <point x="434.835" y="649.0" />
+      <point x="681.495" y="649.0" />
+      <point x="-4.717187771348108E-4" y="236.99986301793044" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.Class.EnglishClassStatus" relationship="TO_ONE">
+      <point x="14.999524281214065" y="282.0" />
+      <point x="60.65152386207994" y="-38.0" />
+    </edge>
+    <edge source="controller.EnglishClassController" target="service.Room.RoomServiceIMPL" relationship="CREATE">
+      <point x="0.0" y="225.0" />
+      <point x="-78.7188718785178" y="-247.0" />
+    </edge>
+    <edge source="model.User.User" target="model.User.Gender" relationship="TO_ONE">
+      <point x="91.5" y="-2.705551584526006" />
+      <point x="818.4405485646708" y="359.93758539754356" />
+      <point x="818.4405485646708" y="360.43758539754356" />
+      <point x="-85.5" y="0.0" />
+    </edge>
+    <edge source="service.Room.RoomServiceIMPL" target="model.Room.Room" relationship="TO_MANY">
+      <point x="-4.2187262579318485E-5" y="-247.00010816906482" />
+      <point x="-432.51599999999996" y="387.0" />
+      <point x="-63.135999999999996" y="387.0" />
+      <point x="-1.5149511628465007E-4" y="216.00031058744926" />
+    </edge>
+    <edge source="model.User.Student" target="model.User.User" relationship="GENERALIZATION">
+      <point x="124.0001649512251" y="-28.105284421743534" />
+      <point x="346.639" y="592.643" />
+      <point x="346.639" y="649.0" />
+      <point x="681.495" y="649.0" />
+      <point x="-4.717187771348108E-4" y="236.99986301793044" />
+    </edge>
+    <edge source="service.Class.EnglishClassServiceIMPL" target="model.Class.EnglishClass" relationship="TO_MANY">
+      <point x="-153.702792841732" y="-346.00037360946123" />
+      <point x="321.0" y="782.0" />
+      <point x="361.639" y="782.0" />
+      <point x="86.84752428121408" y="281.9998342742766" />
+    </edge>
+    <edge source="controller.EnglishClassController" target="service.Class.EnglishClassServiceIMPL" relationship="CREATE">
+      <point x="-97.2811281214822" y="225.0" />
+      <point x="-608.5159578127374" y="2200.908475843201" />
+      <point x="588.0455012044224" y="2200.908475843201" />
+      <point x="113.34270836269042" y="368.0" />
+    </edge>
+    <edge source="controller.EnglishClassController" target="service.user.UserServiceIMPL" relationship="CREATE">
+      <point x="-15.0" y="-225.0" />
+      <point x="-526.2348296912552" y="-1011.3851454910937" />
+      <point x="1522.0955231922192" y="-1011.3851454910937" />
+      <point x="30.0" y="-654.0" />
+    </edge>
+    <edge source="model.User.Student" target="model.Class.EnglishClass" relationship="TO_ONE">
+      <point x="1.6495122508786153E-4" y="138.99971557825646" />
+      <point x="-70.30000000000001" y="782.0" />
+      <point x="361.639" y="782.0" />
+      <point x="86.84752428121408" y="281.9998342742766" />
+    </edge>
+    <edge source="model.User.Teacher" target="model.User.User" relationship="GENERALIZATION">
+      <point x="3.3455615857747034E-4" y="-249.00009116747628" />
+      <point x="1030.546" y="649.0" />
+      <point x="681.495" y="649.0" />
+      <point x="-4.717187771348108E-4" y="236.99986301793044" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.Course.Course" relationship="TO_ONE">
+      <point x="96.0" y="-171.24931121681698" />
+      <point x="-76.0" y="0.0" />
+    </edge>
+    <edge source="model.Receipt.Receipt" target="model.Course.Course" relationship="TO_ONE">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="model.User.User" relationship="TO_MANY">
+      <point x="-171.0" y="-503.0724491340179" />
+      <point x="91.5" y="-58.205551584526006" />
+    </edge>
+    <edge source="view.Common.LoginView" target="model.User.User" relationship="TO_MANY">
+      <point x="59.5" y="0.0" />
+      <point x="-91.5" y="0.0" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.User.Teacher" relationship="TO_ONE">
+      <point x="95.99952428121406" y="-1.6572572343420688E-4" />
+      <point x="1206.546" y="61.363999999999976" />
+      <point x="1206.546" y="704.0" />
+      <point x="1015.546" y="704.0" />
+      <point x="-14.999665443841423" y="-249.00009116747628" />
+    </edge>
+    <edge source="model.User.Teacher" target="model.Class.EnglishClass" relationship="TO_ONE">
+      <point x="-143.49966544384142" y="-9.116747628468147E-5" />
+      <point x="321.0" y="990.428" />
+      <point x="321.0" y="782.0" />
+      <point x="361.639" y="782.0" />
+      <point x="86.84752428121408" y="281.9998342742766" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="model.User.Student" relationship="TO_MANY">
+      <point x="0.0" y="-654.0" />
+      <point x="1492.0955231922192" y="-520.3130031370417" />
+      <point x="-217.1358485048837" y="-520.3130031370417" />
+      <point x="-217.1358485048837" y="620.7482844217435" />
+      <point x="-124.0" y="0.0" />
+    </edge>
+    <edge source="controller.EnglishClassController" target="service.Room.RoomServiceIMPL" relationship="TO_ONE">
+      <point x="15.0" y="225.0" />
+      <point x="-63.7188718785178" y="-247.0" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.Room.Room" relationship="TO_ONE">
+      <point x="-4.757187859354417E-4" y="281.9998342742766" />
+      <point x="274.791" y="387.0" />
+      <point x="-63.135999999999996" y="387.0" />
+      <point x="-1.5149511628465007E-4" y="216.00031058744926" />
+    </edge>
+    <edge source="model.Room.Room" target="model.Class.EnglishClass" relationship="TO_ONE">
+      <point x="134.3358485048837" y="216.00031058744926" />
+      <point x="71.2" y="782.0" />
+      <point x="361.639" y="782.0" />
+      <point x="86.84752428121408" y="281.9998342742766" />
+    </edge>
+    <edge source="controller.EnglishClassController" target="model.Class.EnglishClass" relationship="CREATE">
+      <point x="210.5" y="-152.57947631317268" />
+      <point x="-90.0" y="-152.57947631317268" />
+    </edge>
+    <edge source="model.Class.EnglishClass" target="model.Class.Shift" relationship="TO_ONE">
+      <point x="-88.5" y="-282.0" />
+      <point x="180.29147571878593" y="-393.80363353704183" />
+      <point x="371.32671084829053" y="-393.80363353704183" />
+      <point x="72.97436445855297" y="38.0" />
+    </edge>
+    <edge source="model.Room.Room" target="model.Room.RoomStatus" relationship="TO_ONE">
+      <point x="-6.438896777868138" y="-216.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="model.Course.Course" target="model.Course.CourseType" relationship="TO_ONE">
+      <point x="52.84371432156638" y="-139.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="service.Class.EnglishClassServiceIMPL" target="service.Class.IEnglishClassService" relationship="REALIZATION">
+      <point x="177.0" y="200.33703460727907" />
+      <point x="-177.0" y="0.0" />
+    </edge>
+    <edge source="controller.EnglishClassController" target="service.Class.EnglishClassServiceIMPL" relationship="TO_ONE">
+      <point x="-82.2811281214822" y="225.0" />
+      <point x="-593.5159578127374" y="2185.908475843201" />
+      <point x="573.0455012044224" y="2185.908475843201" />
+      <point x="98.34270836269042" y="368.0" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="model.User.Teacher" relationship="TO_MANY">
+      <point x="-170.99952319221916" y="-417.0720345315615" />
+      <point x="1206.546" y="390.938" />
+      <point x="1206.546" y="704.0" />
+      <point x="1015.546" y="704.0" />
+      <point x="-14.999665443841423" y="-249.00009116747628" />
+    </edge>
+    <edge source="model.User.User" target="model.User.Role" relationship="TO_ONE">
+      <point x="91.5" y="213.74883881555354" />
+      <point x="-78.0" y="0.0" />
+    </edge>
+    <edge source="controller.CourseController" target="model.Course.Course" relationship="CREATE">
+      <point x="-61.15628567843362" y="181.0" />
+      <point x="-61.15628567843362" y="-116.0" />
+    </edge>
+    <edge source="service.user.UserServiceIMPL" target="service.user.IUserService" relationship="REALIZATION">
+      <point x="0.0" y="654.0" />
+      <point x="1492.0955231922192" y="2155.908475843201" />
+      <point x="-306.45550831238154" y="2155.908475843201" />
+      <point x="0.0" y="522.0" />
+    </edge>
+    <edge source="controller.EnglishClassController" target="service.user.UserServiceIMPL" relationship="TO_ONE">
+      <point x="0.0" y="-225.0" />
+      <point x="-511.2348296912552" y="-996.3851454910937" />
+      <point x="1507.0955231922192" y="-996.3851454910937" />
+      <point x="15.0" y="-654.0" />
+    </edge>
+    <edge source="service.Room.RoomServiceIMPL" target="service.Room.IRoomService" relationship="REALIZATION">
+      <point x="-139.5246192996442" y="246.99999999999997" />
+      <point x="-572.0405771123816" y="2170.908475843201" />
+      <point x="105.29216986547837" y="2170.908475843201" />
+      <point x="0.0" y="170.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.5960464477539062" showDependencies="true" x="681.4954717187771" y="808.0100345315615" />
+  <SelectedNodes>
+    <node>controller.RoomController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
