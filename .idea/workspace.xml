@@ -2,73 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f681ca3c-9d93-4e30-aeb2-86d1c9381fe5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/EnglishClassController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/EnglishClassController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/RoomController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/RoomController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/course.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/course.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/data/user.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/EnglishClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/EnglishClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/EnglishClassStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/EnglishClassStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/Shift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Class/Shift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Course/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Course/Course.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Room/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/Room/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/model/User/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Class/EnglishClassServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Class/EnglishClassServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Room/IRoomService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Room/IRoomService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Room/RoomServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/Room/RoomServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/user/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/user/IUserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/user/UserServiceIMPL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/service/user/UserServiceIMPL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/AdminView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/AdminView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/AddEnglishClassView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/AddEnglishClassView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/DisplayEnglishClassView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/EnglishClass/DisplayEnglishClassView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/Room/AddRoomView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/Room/AddRoomView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/Edit/EditTeacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/AdminView/User/Edit/EditTeacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/Common/CommonView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/Common/CommonView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/Common/LoginView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/StudentView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/StudentView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/TeacherView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CASE-STUDY-MD2/view/TeacherView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CourseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/EnglishClassController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/EnglishClassController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/RoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/course.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/englishClass.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/englishClass.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/room.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/room.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/student.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/student.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/teacher.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/teacher.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/user.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Class/EnglishClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Class/EnglishClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Class/EnglishClassStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Class/EnglishClassStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Class/Shift.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Class/Shift.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Course/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Course/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Room/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Room/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/User/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/User/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Class/EnglishClassServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Class/EnglishClassServiceIMPL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Room/IRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Room/IRoomService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/Room/RoomServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/Room/RoomServiceIMPL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/user/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/user/IUserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/service/user/UserServiceIMPL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/user/UserServiceIMPL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView/Course/DisplayCourseView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/AddEnglishClassView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/AddEnglishClassView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/DisplayEnglishClassView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView/EnglishClass/DisplayEnglishClassView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView/Room/AddRoomView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView/Room/AddRoomView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView/Room/DisplayRoomView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView/Room/DisplayRoomView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView/Room/EditRoomView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView/Room/EditRoomView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView/User/Edit/EditTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView/User/Edit/EditTeacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/AdminView/User/RegisterView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/AdminView/User/RegisterView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Common/CommonView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Common/CommonView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Common/LoginView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/StudentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/StudentView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/TeacherView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/TeacherView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/temurin-1.8.0_332/src.zip!/java/lang/Object.java" root0="SKIP_INSPECTION" />
@@ -159,7 +101,7 @@
       <workItem from="1656312496770" duration="14150000" />
       <workItem from="1656363850097" duration="2913000" />
       <workItem from="1656366802710" duration="96127000" />
-      <workItem from="1657158734299" duration="55289000" />
+      <workItem from="1657158734299" duration="63031000" />
     </task>
     <servers />
   </component>
@@ -193,7 +135,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CASE_STUDY_MD2$view_Main.ic" NAME="view.Main Coverage Results" MODIFIED="1657183710088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/CASE_STUDY_MD2$view_Main.ic" NAME="view.Main Coverage Results" MODIFIED="1657279616900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>view.AdminView.User.Edit.*</FILTER>
     </SUITE>
   </component>

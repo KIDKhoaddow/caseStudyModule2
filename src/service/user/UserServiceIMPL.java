@@ -5,6 +5,7 @@ import model.Class.EnglishClass;
 import model.Class.Shift;
 import model.Room.RoomStatus;
 import model.User.*;
+import service.Class.EnglishClassServiceIMPL;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,12 +17,27 @@ public class UserServiceIMPL implements IUserService {
 
 
     public static String PATH_STUDENT = ConfigReadAndWriteFile.PATH + "student.txt";
-    public static List<Student> studentList = new ConfigReadAndWriteFile<Student>().readFromFile(PATH_STUDENT);
+    public static List<Student> studentList = updateStudent();
 
 
     public static String PATH_TEACHER = ConfigReadAndWriteFile.PATH + "teacher.txt";
     public static List<Teacher> teacherList = new ConfigReadAndWriteFile<Teacher>().readFromFile(PATH_TEACHER);
 
+    public static List<Student> updateStudent() {
+        studentList = new ConfigReadAndWriteFile<Student>().readFromFile(PATH_STUDENT);
+        EnglishClassServiceIMPL englishClassServiceIMPL = new EnglishClassServiceIMPL();
+        ArrayList<EnglishClass> englishClassList = (ArrayList<EnglishClass>) englishClassServiceIMPL.findEnglishClassStartAndPrepare();
+        if(studentList!=null){
+            for (Student element1:studentList) {
+                for (EnglishClass element2:englishClassList) {
+                    if(element1.getEnglishClass().getClassId().equals(element2.getClassId())){
+                        element1.setEnglishClass(element2);
+                    }
+                }
+            }
+        }
+        return studentList;
+    }
 
     @Override
     public void save(User user) {
@@ -99,7 +115,8 @@ public class UserServiceIMPL implements IUserService {
         }
         return -1;
     }
-    public User findUserById(int index){
+
+    public User findUserById(int index) {
         return userList.get(index);
     }
 
@@ -112,7 +129,8 @@ public class UserServiceIMPL implements IUserService {
         }
         return -1;
     }
-    public  int findStudentNoClassById(String id,ArrayList<Student> studentList){
+
+    public int findStudentNoClassById(String id, ArrayList<Student> studentList) {
         for (int i = 0; i < studentList.size(); i++) {
             if (studentList.get(i).getStudentId().equals(id)) {
                 return i;
@@ -142,10 +160,12 @@ public class UserServiceIMPL implements IUserService {
         }
         return -1;
     }
-    public Teacher findTeacherById(int index){
+
+    public Teacher findTeacherById(int index) {
         return teacherList.get(index);
     }
-    public  int findTeacherById(String id, ArrayList<Teacher> teacherList){
+
+    public int findTeacherById(String id, ArrayList<Teacher> teacherList) {
         for (int i = 0; i < teacherList.size(); i++) {
             if (teacherList.get(i).getTeacherId().equals(id)) {
                 return i;
@@ -298,8 +318,9 @@ public class UserServiceIMPL implements IUserService {
         }
         return null;
     }
-    public  EnglishClass getShiftActive(int index ){
-       return teacherList.get(index).getShiftActive();
+
+    public EnglishClass getShiftActive(int index) {
+        return teacherList.get(index).getShiftActive();
     }
 
     @Override
@@ -334,13 +355,14 @@ public class UserServiceIMPL implements IUserService {
         saveStudentList();
         return studentList.get(index);
     }
-    public boolean editClassForStudent(ArrayList<Student> studentList,EnglishClass englishClass){
+
+    public boolean editClassForStudent(ArrayList<Student> studentList, EnglishClass englishClass) {
         try {
 
-            for (Student element:studentList) {
+            for (Student element : studentList) {
                 element.setEnglishClass(englishClass);
             }
-        }catch (Exception e)    {
+        } catch (Exception e) {
             return false;
         }
         return true;

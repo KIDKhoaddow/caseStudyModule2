@@ -21,7 +21,7 @@ public class Room implements Serializable {
     public Room(String roomName, int roomNumberSeat) {
         int id;
         try {
-            id = Integer.parseInt(RoomServiceIMPL.roomList.get(RoomServiceIMPL.roomList.size() - 1).getRoomId().substring(5));
+            id = Integer.parseInt(RoomServiceIMPL.roomList.get(RoomServiceIMPL.roomList.size() - 1).getRoomId().substring(4));
         } catch (Exception e) {
             id = 0;
         }
